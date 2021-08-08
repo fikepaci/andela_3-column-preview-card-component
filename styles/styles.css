@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  margin: 100px 0 100px 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.card-01 {
+  background: hsl(31, 77%, 52%);
+  position: relative;
+  flex: 1;
+  height: 470px;
+  max-width: 280px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-01 button {
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+}
+.card-02 button {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card-03 button {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card-02 {
+  background: hsl(184, 100%, 22%);
+  position: relative;
+  flex: 1;
+  max-width: 280px;
+  height: 470px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-03 {
+  background: hsl(179, 100%, 13%);
+  position: relative;
+  flex: 1;
+  max-width: 280px;
+  height: 470px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  padding: 45px 0 20px 40px;
+}
+.title {
+  padding: 10px 0 0 40px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 40px;
+}
+.description {
+  padding: 20px 0 20px 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  max-width: 200px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+button {
+  cursor: pointer;
+  border-radius: 50em;
+  border: none;
+  outline: none;
+  padding: 15px 35px 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 70px 0 10px 40px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+button:active {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+@media (min-width: 300px) {
+  .card-01 {
+    flex: 100%;
+    max-width: 300px;
+  }
+
+  .card-02 {
+    flex: 100%;
+    max-width: 300px;
+  }
+
+  .card-03 {
+    flex: 100%;
+    max-width: 300px;
+  }
+}
