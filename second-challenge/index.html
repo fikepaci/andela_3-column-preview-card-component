@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
+    <title>ping-coming-soon-page-starter</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./scripts/email-validator.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div class="item2-first">We are launching <span> soon! </span></div>
+        <div class="item2-last">Subscribe and get notified</div>
+        <div class="form-data">
+          <form name="Form" onsubmit="return validateForm()">
+            <div class="box">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Your email address..."
+              />
+              <div class="error" id="emailErr"></div>
+            </div>
+            <div class="box">
+              <input type="submit" value="Notify Me" />
+            </div>
+          </form>
+        </div>
+        <div class="item2">
+          <img src="./images/illustration-dashboard.png" alt="" />
+        </div>
+        <div class="item2">
+          <div class="icons-center">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+        <div class="footer">&copy; Copyright Ping. All rights reserved.</div>
+      </div>
+    </div>
+  </body>
+</html>
