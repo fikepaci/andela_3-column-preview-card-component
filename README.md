@@ -45,4 +45,4 @@ below is the process of how i builded this project,
 this project was hosted using netlify Free:
 
 - [Netlify](https://www.netlify.com/)
-- deployed version on this link: https://610fbe306119ef18b7e36e4e--ecstatic-ramanujan-e0b236.netlify.app/
+- deployed version on this link: https://pensive-wozniak-fe2c81.netlify.app/
